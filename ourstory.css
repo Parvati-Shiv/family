@@ -1,0 +1,157 @@
+.heading
+{
+    height:90px;
+    width:100%;
+    background-color: rgba(4, 4, 83, 0.082); 
+     display: flex;
+     justify-content: start;
+     align-items: center;
+}
+
+.heading h1
+{
+    font-weight: 200;
+    margin-left: 90px;
+}
+
+.heading a
+{
+    margin-left:900px;
+    text-decoration: none;
+        
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s;
+}
+
+.heading a:hover{
+    color: #007aff;
+}
+
+.heading p
+{
+  font-weight: 400;
+  height:600px;
+}
+
+/* Story Starts Here  */
+
+.story-main
+{
+    display: flex;
+    margin:70px 90px;
+}
+
+.story-main .story-content
+{
+    width:48%;
+}
+.story-main .story-content h1
+{
+    font-weight: 50;
+    margin-bottom: 10px;
+    color:rgba(0, 0, 0, 0.623)
+}
+
+.story-main .story-content .para
+{
+  font-family: arial;
+  font-style: italic;
+ line-height: 30px;
+ font-size: 20px;
+ color: rgba(0, 0, 0, 0.555);
+ margin-bottom: 10px;
+
+
+}
+
+.story-main .story-content .para1
+{
+  /* font-family: arial; */
+  /* font-style: italic; */
+ line-height: 23px;
+ font-size: 20px;
+ color: rgba(0, 0, 0, 0.555);
+ margin-bottom: 20px;
+
+
+}
+
+.story-main .story-image
+{
+    width:48%;
+    margin-left: 20px;
+}
+
+.story-main .story-image img
+
+{
+    width:100%;
+    height: 100%;
+}
+
+/* Details  */
+
+.details-main
+{
+    display:flex;
+    margin: 40px 40px;
+    justify-content: space-between;
+}
+
+.details-main .content-details
+{
+    width:31%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    height:200px;
+
+
+   
+    
+}
+
+.details-main .content-details .logo-details
+{
+    position: absolute;
+    left: 0;
+    bottom: 0 px;
+    right: 0;
+    height: 40px;
+    opacity: 0;
+    transition: bottom ease-in-out 0.4s;
+    text-align: center;
+    background: rgba(0, 111, 190, 0.8); 
+
+
+}
+.details-main .content-details .logo-details i
+{
+    margin-left: 20px;
+}
+
+.details-main .content-details .details-image
+{
+ 
+    position: relative;
+   
+
+}
+.details-main .content-details .details-image img
+{
+    width: 100%;
+    height: 100%; 
+}
+
+
+
+
+
+
+
+
+
+
